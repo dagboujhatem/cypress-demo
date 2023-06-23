@@ -1,0 +1,27 @@
+{
+  "name": "cypress-demo",
+  "version": "1.0.0",
+  "description": "this is a simple demo using cypress with js ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test:e2e": "sudo npx cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dagboujhatem/cypress-demo.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Hatem DAGHBOUJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dagboujhatem/cypress-demo/issues"
+  },
+  "homepage": "https://github.com/dagboujhatem/cypress-demo#readme",
+  "devDependencies": {
+    "cypress": "^12.14.0"
+  }
+}
